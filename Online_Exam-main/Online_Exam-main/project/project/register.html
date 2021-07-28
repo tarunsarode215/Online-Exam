@@ -1,0 +1,88 @@
+
+<html>
+<head>
+	<title>Register</title>
+
+	<style type="text/css">
+		body
+	  {
+	background:linear-gradient(rgba(255,0,0,0.3),rgba(255,0,0,0.3)),url(regis.png);
+	background-size: 100%;
+	  }
+	   table
+	  {
+	  	background:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2));
+	  	padding: 30px;
+	  	font-size: 20px
+	  }
+	  table tr th input
+	  {
+	    border: none;
+	    border-radius:5px; 
+	    padding: 6px;
+
+	    
+	  }
+	</style>
+
+</head>
+<body>
+	<form action="Register.php" method="post">
+		<center>
+			<table cellspacing="12" cellpadding="12">
+				</br></br></br>
+				<tr>
+					<th colspan="2" style="color: white; font-size: 30px;">Registation</th>
+				</tr>
+				<tr>
+					<th>Enter Name</th>
+					<th><input type="text" placeholder="EnterName" name="un"></th>
+				</tr>
+				<tr>
+					<th>Enter Father Name</th>
+					<th><input type="text" placeholder="Enter Father Name " name="fn"></th>
+				</tr>
+				<tr>
+					<th>Enter Contact No</th>
+					<th><input type="text" placeholder="Enter Contact " name="cn"></th>
+				</tr>
+				<tr>
+					<th>Aadhar Card No</th>
+					<th><input type="text" placeholder="Enter Aadhar Card.No " name="an"></th>
+				</tr>
+				<tr>
+					<th>Email ID</th>
+					<th><input type="text" placeholder="Enter Email-ID " name="em"></th>
+				</tr>
+				<tr>
+					<th>Date Of Birth</th>
+					<th><input type="date" placeholder="" name="dob"></th>
+				</tr>
+				<tr>
+					<th>Gender</th>
+					<th>Male<input type="radio" value="Male"  name="x" checked>Female<input type="radio" value="FeMale" name="x"></th>
+				</tr>
+				<tr>
+					<th>Nationality</th>
+					<th><input type="text" placeholder="Nationality" name="nal"></th>
+				</tr>
+
+				<tr>
+					<th>State</th>
+					<th><input type="text" placeholder="State" name="st"></th>
+				</tr>
+				<tr>
+					<th>Pincode</th>
+					<th><input type="number" placeholder="Pincode " name="pin"></th>
+				</tr>
+					<tr>
+						<th colspan="2" > <input style="height: 30px; width: 100px;font-size: 15px;" type="submit"  value="Register" name=""></th>
+					</tr>
+		
+
+			</table>
+		</center>
+	</form>
+
+</body>
+</html>

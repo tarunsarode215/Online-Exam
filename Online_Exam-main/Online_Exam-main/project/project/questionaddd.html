@@ -1,0 +1,155 @@
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="faculity.css">
+         <title>Question Paper</title>
+
+         <style>
+             
+   	table
+   	{
+   		background: linear-gradient( rgba(255,255,255,0.6),rgba(255,255,255,0.6));
+   		padding: 30px;
+   		margin-top: 5%;
+                color:black; 
+   	}
+
+   	table tr td
+   	{
+   		font-size: 20px;
+   		padding: 20px;
+   	}
+   	table tr td input
+   	{
+   		background: linear-gradient( rgba(255,255,255,0.6),rgba(255,255,255,0.6));
+   		padding: 10px;
+   		width: 50%;
+   	}
+        .m
+        {
+            padding: 30px; 
+        }
+        
+                
+        div ul li
+        {
+            float: right;
+            display: inline-block;
+            background-color: black;
+            padding: 10px;
+            margin: 8px;
+         
+
+        }
+         div ul li:hover
+        {
+            float: right;
+            display: inline-block;
+            background-color:red;
+			border-radius:8px;
+            padding: 15px;
+            margin: 3px;    
+        }
+
+body
+	  {
+	background: linear-gradient(rgba(255,0,200,0.3),rgba(255,0,0,0.6)),url(admin.jpg);
+	background-size: 100%;
+	  }
+
+
+
+         </style>
+</head>
+<body>
+
+
+
+ <div>
+        
+        <ul>
+            <li><a href="Admin.html" style="text-decoration: none; color: white">Logout</a></li>
+            <li><a href="delete.html" style="text-decoration: none; color: white">Delete Question</a></li>
+            <li><a href="questionaddd.html" style="text-decoration: none; color: white">Add Question</a></li>
+            <li><a href="showall" style="text-decoration: none; color: white">Students</a></li>
+            <li><a href="questionadd.html" style="text-decoration: none; color: white">Home</a></li>
+        </ul>
+
+    </div>
+    
+    
+    
+ 
+<div class="m">
+<form action="questionadd.php" method="post">
+
+<center>	
+  <table>
+  		<tr>
+  			<td> 
+                            <center>-----------------------------------------------------------INSERT-------------------------------------------------------------</br>
+							<label> Please Select Your Language</label><br><br>
+                            <select style="width: 50%; height:40px;" name="choice">
+                                
+                        	<option>C-pro</option>
+                	        <option>C++</option>
+                          	<option>PHP</option>
+                           	<option>Java</option>
+                        	<option>Python</option>
+                          </select>
+  			</td>
+  		</tr>
+  	
+
+  	    <tr>
+  		   <td>
+		   <center>
+  		   	   <p>Write a Question ?</p>
+  		   	   <input type="text" placeholder=" Question" name="ques">
+  		   </td>
+
+  	    </tr>
+
+  	
+
+  	    <tr>
+  		   <td><center>
+
+  		   	<p>Fill The Text Field Multiple Option</p>
+  		   	   <input type="text"  placeholder=" answer A" name="answer1">
+  		   	   <input type="text"  placeholder=" answer B" name="answer2">
+  		   	   <input type="text"  placeholder=" answer C" name="answer3">
+  		   	   <input type="text"  placeholder=" answer D" name="answer4">
+  		   </td>
+
+  	    </tr>
+
+         
+
+  	    <tr>
+  		   <td>
+		   <center>
+  		   	   <p>Write a Correct answer</p>
+  		   	   <input type="text" placeholder="Correct answer" name="correct">
+  		   </td>
+
+  	    </tr>
+  	    <tr>
+  		   <td>
+		   <center>
+  		   	   <input type="submit"value="submit">
+  		   </td>
+
+  	    </tr>
+        
+
+
+  </table>
+</center>
+</form>
+</div>
+        
+</body>
+</html>
+
+

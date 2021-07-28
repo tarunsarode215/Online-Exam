@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style type="text/css">
+
+	 body
+	  {
+	background: linear-gradient(rgba(255,0,200,0.3),rgba(255,0,0,0.6)),url(admin.jpg);
+	background-size: 100%;
+	margin:228px;	
+	  }
+
+	  table
+	  {
+	  	background: linear-gradient( rgba(255,255,255,0.6),rgba(255,255,255,0.6));
+	  	padding: 30px;
+	  	font-size: 20px
+	  }
+	  table tr th input
+	  {
+	    border: none;
+	    border-radius:5px; 
+	    padding: 6px;
+
+	    
+	  }
+
+	</style>
+</head>
+<body>
+<form action="login.php" method="post">
+<center> 	
+	<table cellpadding="20" cellspacing="20" style="margin-top: 5%;">
+
+		<tr >
+			<th colspan="2" style="text-align :center; color:black;">
+			
+		      STUDENT-LOGIN
+			</th>		
+		</tr>
+
+		<tr>
+
+					<th>Enter Name</th>
+					<th><input type="text" placeholder="EnterName" name="un"></th>
+
+		</tr>
+
+		<tr>
+			<th> Email ID </th>
+			<th><input type="text"  placeholder="Email-ID" name="em"></th>
+		</tr>
+		<tr>        <th>Date Of Birth</th>
+					<th><input type="date" placeholder="" name="dob"></th>
+		</tr>
+		<tr>
+			<th colspan="2" > <input style="height: 30px; width: 100px;font-size: 15px;" type="submit"  value="Login" ></th>
+		</tr>		
+
+	</table>
+	
+</center>
+</form>
+</body>
+</html>
